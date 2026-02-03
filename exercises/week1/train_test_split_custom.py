@@ -59,5 +59,3 @@ def train_test_split(X,y,test_ratio=0.2, random_seed=42):
 
 X = np.arange(100).reshape(50,2)
 y = np.arange(50)
-
-X_train, X_test, y_train, y_test = train_test_split(X,y,test_ratio=0.2, random_seed=42)
